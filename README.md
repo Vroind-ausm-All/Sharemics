@@ -15,7 +15,13 @@ ein paar Kilobyte SVG.
 node build.mjs            # baut nach dist/
 node build.mjs --watch    # baut bei jeder Änderung in src/ neu
 npx serve dist            # oder: python3 -m http.server -d dist 8000
+node preview.mjs          # packt alles in sharemics-vorschau.html
 ```
+
+`sharemics-vorschau.html` enthält die komplette Seite in einer einzigen Datei —
+zum Doppelklicken, Verschicken oder Herumzeigen, ohne dass ein Server läuft.
+Maßgeblich für den Betrieb bleibt `dist/`: dort liegen die Seiten einzeln, mit
+eigenen URLs, eigenen Metadaten und eigener Sitemap.
 
 Node 18 oder neuer genügt; `npm install` ist nicht nötig, weil es keine
 Abhängigkeiten gibt.
