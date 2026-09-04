@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" aria-hidden="true" focusable="false" class="vessel">
+<path class="v-body" d="M32 34C31 58 34 82 36 98C36 104 84 104 84 98C86 82 89 58 88 34Z"/>
+<path class="v-glaze" d="M32 34C31.5 46 32.5 56 33.6 66H86.4C87.5 56 88.5 46 88 34Z"/>
+<path class="v-line" d="M88 48C106 47 108 76 85 78" fill="none" stroke-width="6.5" stroke-linecap="round"/>
+<ellipse class="v-rim" cx="60" cy="34" rx="28" ry="7"/>
+</svg>

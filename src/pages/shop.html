@@ -1,0 +1,86 @@
+<!-- meta
+{
+  "title": "Shop — Becher, Schalen, Teller & Vasen",
+  "slug": "shop",
+  "nav": "shop",
+  "priority": 0.9,
+  "description": "Handgedrehtes Steinzeug aus der Sharemics-Werkstatt: Becher, Schalen, Teller, Vasen und Krüge in kleinen Serien. Spülmaschinenfest, bei 1240 °C dicht gebrannt."
+}
+-->
+<section class="page-header">
+  <div class="shell">
+    <div class="title-block">
+      <div class="ornament-wash" data-ornament="wave-scroll" aria-hidden="true"></div>
+      <p class="eyebrow">Shop · kleine Serien</p>
+      <h1 class="h-page">Der Laden</h1>
+    </div>
+    <p class="lede">
+      Alles hier ist auf der Scheibe entstanden und für den täglichen Gebrauch gedacht:
+      spülmaschinen- und mikrowellenfest, bei 1240 °C dicht gebrannt. Unikate gibt es
+      genau einmal — was weg ist, ist weg.
+    </p>
+  </div>
+</section>
+
+<section class="section-tight" style="padding-top:0">
+  <div class="shell">
+    <div class="filter-bar">
+      <button class="filter" type="button" data-filter="all" aria-pressed="true">Alles</button>
+      <button class="filter" type="button" data-filter="becher" aria-pressed="false">Becher</button>
+      <button class="filter" type="button" data-filter="schalen" aria-pressed="false">Schalen</button>
+      <button class="filter" type="button" data-filter="teller" aria-pressed="false">Teller</button>
+      <button class="filter" type="button" data-filter="vasen" aria-pressed="false">Vasen &amp; Krüge</button>
+      <span class="filter-spacer"></span>
+      <label class="visually-hidden" for="shopSort">Sortierung</label>
+      <select class="select-inline" id="shopSort">
+        <option value="default">Sortierung: Werkstatt</option>
+        <option value="price-asc">Preis aufsteigend</option>
+        <option value="price-desc">Preis absteigend</option>
+        <option value="name">Alphabetisch</option>
+      </select>
+    </div>
+
+    <p class="eyebrow" id="shopCount" aria-live="polite">Alle Stücke</p>
+
+    <h2 class="visually-hidden">Alle Stücke im Shop</h2>
+    <div class="grid-4" id="productGrid" style="margin-top:1rem">
+      {{ productsAll }}
+    </div>
+
+    <p id="shopEmpty" class="lede" hidden style="margin-top:2rem">
+      In dieser Kategorie steht gerade nichts im Regal. Die nächste Ofenrunde kommt bestimmt.
+    </p>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="shell grid-3">
+    <div class="value-card">
+      <p class="value-num">01</p>
+      <h2 style="font-size:var(--step-1);margin-bottom:.5rem">Versand &amp; Abholung</h2>
+      <p style="font-size:.9rem;color:var(--ink-soft)">
+        Versand innerhalb Deutschlands mit DHL GoGreen, 5,90 € — ab 90 € versandkostenfrei.
+        Abholung in Plagwitz ist immer kostenlos.
+      </p>
+      <p class="button-row"><a class="button button-quiet button-sm" href="versand.html">Details</a></p>
+    </div>
+    <div class="value-card">
+      <p class="value-num">02</p>
+      <h2 style="font-size:var(--step-1);margin-bottom:.5rem">Pflege</h2>
+      <p style="font-size:.9rem;color:var(--ink-soft)">
+        Spülmaschine ja, Mikrowelle ja, Backofen besser nicht. Warum das so ist und was
+        Krakelee bedeutet, steht auf der Pflegeseite.
+      </p>
+      <p class="button-row"><a class="button button-quiet button-sm" href="pflege.html">Pflegehinweise</a></p>
+    </div>
+    <div class="value-card">
+      <p class="value-num">03</p>
+      <h2 style="font-size:var(--step-1);margin-bottom:.5rem">Sonderanfertigung</h2>
+      <p style="font-size:.9rem;color:var(--ink-soft)">
+        Ein Gedeck für sechs, eine Serie fürs Café, ein Hochzeitsgeschenk? Schreib uns,
+        wir rechnen Zeit und Ofenplatz durch.
+      </p>
+      <p class="button-row"><a class="button button-quiet button-sm" href="kontakt.html">Anfragen</a></p>
+    </div>
+  </div>
+</section>

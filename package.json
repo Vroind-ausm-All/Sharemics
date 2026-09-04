@@ -1,0 +1,14 @@
+{
+  "name": "sharemics",
+  "version": "1.0.0",
+  "description": "Website für Sharemics — Keramik und Wochenendkurse in Leipzig",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs --watch",
+    "serve": "python3 -m http.server -d dist 8000",
+    "ornaments": "python3 tools/ornaments.py"
+  }
+}

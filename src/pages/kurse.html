@@ -1,0 +1,157 @@
+<!-- meta
+{
+  "title": "Töpferkurse am Wochenende in Leipzig",
+  "slug": "kurse",
+  "nav": "kurse",
+  "priority": 0.9,
+  "description": "Wochenendkurse an der Töpferscheibe in Leipzig-Plagwitz: Einsteigerkurse ab 95 €, sechs Plätze, Material und Brand inklusive. Termine im Kalender auswählen und Platz anfragen."
+}
+-->
+<section class="page-header">
+  <div class="shell">
+    <div class="title-block">
+      <div class="ornament-wash" data-ornament="vitruvian" aria-hidden="true"></div>
+      <p class="eyebrow">Wochenendkurse</p>
+      <h1 class="h-page">Ein Wochenende am Ton.</h1>
+    </div>
+    <p class="lede">
+      Sechs Scheiben, sechs Leute, ein langer Nachmittag. Du brauchst nichts mitzubringen
+      außer Kleidung, die dreckig werden darf — Ton, Werkzeug, Schürze, Glasur und beide
+      Brände sind im Preis drin.
+    </p>
+  </div>
+</section>
+
+<section class="section-tight" style="padding-top:0">
+  <div class="shell booking-layout">
+    <div class="calendar">
+      <div class="calendar-head">
+        <h2 id="calendarMonth" style="font-size:var(--step-2)">Termine</h2>
+        <div class="calendar-nav">
+          <button id="calendarPrev" type="button" aria-label="Vorheriger Monat">‹</button>
+          <button id="calendarNext" type="button" aria-label="Nächster Monat">›</button>
+        </div>
+      </div>
+      <div class="weekdays" aria-hidden="true">
+        <span>Mo</span><span>Di</span><span>Mi</span><span>Do</span><span>Fr</span><span>Sa</span><span>So</span>
+      </div>
+      <div class="days" id="calendarDays" role="group" aria-label="Kurstermine — mit den Pfeiltasten zwischen freien Terminen wechseln"></div>
+      <div class="calendar-legend">
+        <span><i class="swatch swatch-free" aria-hidden="true"></i> Plätze frei</span>
+        <span><i class="swatch swatch-none" aria-hidden="true"></i> kein Kurs</span>
+      </div>
+      <noscript>
+        <p style="margin-top:1rem;font-size:.9rem;color:var(--ink-soft)">
+          Für den Kalender braucht es JavaScript. Alle Termine stehen auch unten in der
+          Liste — schreib uns einfach an
+          <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>.
+        </p>
+      </noscript>
+    </div>
+
+    <div class="booking-panel">
+      <div id="bookingPanel"></div>
+      <div class="slot">
+        <p class="eyebrow">Gutschein</p>
+        <h3 style="font-size:var(--step-1);margin-bottom:.5rem">Ohne festen Termin verschenken</h3>
+        <p>
+          Wir stellen den Gutschein auf Karte oder als PDF aus, drei Jahre gültig. Die
+          beschenkte Person sucht sich den Termin selbst aus.
+        </p>
+        <p class="button-row" style="margin-top:1rem">
+          <a class="button button-ghost button-sm" href="kontakt.html">Gutschein anfragen</a>
+        </p>
+      </div>
+      <div class="slot">
+        <p class="eyebrow">Gruppen &amp; Feiern</p>
+        <h3 style="font-size:var(--step-1);margin-bottom:.5rem">Die Werkstatt nur für euch</h3>
+        <p>
+          Ab sechs Personen öffnen wir auch außerhalb der regulären Kurstage — für
+          Geburtstage, Teams oder einen ruhigen Freitagabend.
+        </p>
+        <p class="button-row" style="margin-top:1rem">
+          <a class="button button-ghost button-sm" href="kontakt.html">Termin anfragen</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="shell">
+    <div class="section-head">
+      <div class="title-block">
+        <p class="eyebrow">Vier Formate</p>
+        <h2 class="h-section">Was wir anbieten.</h2>
+      </div>
+      <p>
+        Alle Kurse finden in der Werkstatt in der Kanalstraße statt. Deine Stücke brennen
+        wir in den folgenden Wochen mit und melden uns, sobald sie abholbereit sind.
+      </p>
+    </div>
+    <div class="grid-4">
+      {{ courseCards }}
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="shell split">
+    <div class="split-panel">
+      <p class="eyebrow">Im Preis enthalten</p>
+      <h2 class="h-section">Mitbringen musst du nichts.</h2>
+      <ul class="includes" style="color:rgba(255,255,255,.78)">
+        {{ courseIncludes }}
+      </ul>
+      <div class="ornament-band" data-ornament="anthemion" aria-hidden="true"></div>
+    </div>
+    <div class="card" style="padding:clamp(1.5rem,3vw,2.5rem)">
+      <p class="eyebrow">Gut zu wissen</p>
+      <h2 class="h-section" style="font-size:var(--step-3);margin-bottom:1rem">Häufige Fragen</h2>
+      <div class="faq">
+        <details>
+          <summary>Ich habe noch nie getöpfert. Reicht das?</summary>
+          <p>
+            Ja. Die Einsteigerkurse setzen nichts voraus. Die ersten beiden Klumpen gehen
+            fast immer schief — das ist eingeplant und gehört dazu.
+          </p>
+        </details>
+        <details>
+          <summary>Wann bekomme ich meine Stücke?</summary>
+          <p>
+            Trocknen, Schrühbrand, Glasur, Glasurbrand: Das dauert vier bis sechs Wochen.
+            Wir schreiben dir, sobald alles fertig ist. Abholung ist kostenlos, Versand
+            berechnen wir nach Gewicht.
+          </p>
+        </details>
+        <details>
+          <summary>Kann ich einen Kurs verschenken?</summary>
+          <p>
+            Gern. Schreib uns kurz, wir schicken einen Gutschein als PDF oder auf Karte —
+            ohne festen Termin, einzulösen innerhalb von drei Jahren.
+          </p>
+        </details>
+        <details>
+          <summary>Wir sind eine Gruppe. Geht auch ein eigener Termin?</summary>
+          <p>
+            Ab sechs Personen machen wir die Werkstatt exklusiv auf, auch außerhalb der
+            regulären Kurstage. Für Geburtstage, Teams oder Junggesell:innenabschiede.
+            Schreib uns mit Wunschdatum und Gruppengröße.
+          </p>
+        </details>
+        <details>
+          <summary>Was ist, wenn ich absagen muss?</summary>
+          <p>
+            Bis 14 Tage vor dem Termin kostenlos. Danach suchen wir zusammen einen
+            Ersatztermin oder du gibst den Platz weiter — das ist uns am liebsten.
+          </p>
+        </details>
+      </div>
+      <div class="button-row">
+        <a class="button button-primary" href="kontakt.html">Gruppentermin anfragen</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script type="application/json" id="courseData">{{ courseDataJson }}</script>

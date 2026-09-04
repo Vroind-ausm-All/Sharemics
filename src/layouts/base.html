@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{ title }} — Sharemics</title>
+<meta name="description" content="{{ description }}">
+<link rel="canonical" href="{{ canonical }}">
+<meta name="theme-color" content="#faf4ec" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#191411" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sharemics">
+<meta property="og:locale" content="de_DE">
+<meta property="og:title" content="{{ title }} — Sharemics">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:url" content="{{ canonical }}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>
+  // Theme vor dem ersten Frame setzen, damit nichts aufblitzt.
+  document.documentElement.classList.add("js");
+  try {
+    var stored = localStorage.getItem("sharemics-theme");
+    var dark = stored ? stored === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+    document.documentElement.dataset.theme = dark ? "dark" : "light";
+  } catch (e) {}
+</script>
+<script type="application/ld+json">{{ structuredData }}</script>
+</head>
+<body class="{{ bodyClass }}">
+{{ header }}
+<main id="hauptinhalt">
+{{ content }}
+</main>
+{{ footer }}
+
+<div class="scrim" id="scrim" hidden></div>
+
+<aside class="cart-drawer" id="cartDrawer" aria-labelledby="cartHeading" aria-hidden="true" hidden>
+  <div class="cart-head">
+    <h2 id="cartHeading">Dein Korb</h2>
+    <button class="icon-button" id="cartClose" type="button" aria-label="Warenkorb schließen">
+      <span class="close-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+  <div class="cart-body" id="cartBody"></div>
+  <div class="cart-foot">
+    <p class="cart-total"><span>Zwischensumme</span><strong id="cartTotal">0 €</strong></p>
+    <p class="cart-hint">Versandkosten werden im nächsten Schritt berechnet. Abholung in der Werkstatt ist kostenlos.</p>
+    <button class="button button-primary button-block" id="checkout" type="button">Zur Kasse</button>
+  </div>
+</aside>
+
+<div class="dialog-scrim" id="bookingDialog" role="dialog" aria-modal="true" aria-labelledby="bookingHeading" hidden>
+  <div class="dialog">
+    <div class="dialog-head">
+      <div>
+        <p class="eyebrow">Kursanfrage</p>
+        <h2 id="bookingHeading">Dein Platz an der Scheibe</h2>
+      </div>
+      <button class="icon-button" id="bookingClose" type="button" aria-label="Dialog schließen">
+        <span class="close-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+    <p class="dialog-summary" id="bookingSummary"></p>
+    <form id="bookingForm" novalidate>
+      <div class="field-row">
+        <p class="field">
+          <label for="bookingName">Name</label>
+          <input id="bookingName" name="name" autocomplete="name" required>
+        </p>
+        <p class="field">
+          <label for="bookingMail">E-Mail</label>
+          <input id="bookingMail" name="email" type="email" autocomplete="email" required>
+        </p>
+      </div>
+      <div class="field-row">
+        <p class="field">
+          <label for="bookingPeople">Personen</label>
+          <select id="bookingPeople" name="people">
+            <option>1 Person</option><option>2 Personen</option>
+            <option>3 Personen</option><option>4 Personen</option>
+          </select>
+        </p>
+        <p class="field">
+          <label for="bookingNote">Hinweis <span>(optional)</span></label>
+          <input id="bookingNote" name="note" placeholder="Gutschein, Geburtstag, Fragen">
+        </p>
+      </div>
+      <p class="field field-check">
+        <input id="bookingConsent" name="consent" type="checkbox" required>
+        <label for="bookingConsent">Meine Angaben dürfen zur Bearbeitung der Kursanfrage gespeichert werden.</label>
+      </p>
+      <button class="button button-primary button-block" type="submit">Anfrage senden</button>
+    </form>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="assets/js/app.js" defer></script>
+</body>
+</html>

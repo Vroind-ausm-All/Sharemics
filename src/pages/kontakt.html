@@ -1,0 +1,133 @@
+<!-- meta
+{
+  "title": "Kontakt & Anfahrt",
+  "slug": "kontakt",
+  "nav": "kontakt",
+  "priority": 0.7,
+  "description": "Sharemics in der Kanalstraße 7, 04229 Leipzig-Plagwitz. Öffnungszeiten, Anfahrt und Kontakt für Kursfragen, Gruppentermine und Sonderanfertigungen."
+}
+-->
+<section class="page-header">
+  <div class="shell">
+    <div class="title-block">
+      <div class="ornament-wash" data-ornament="wave-scroll" aria-hidden="true"></div>
+      <p class="eyebrow">Kontakt &amp; Besuch</p>
+      <h1 class="h-page">Komm vorbei. Oder schreib kurz.</h1>
+    </div>
+    <p class="lede">
+      Für Abholungen, Kursfragen, Gruppentermine oder Sonderanfertigungen. Wir antworten
+      meistens am selben Tag — außer samstags, da läuft die Werkstatt.
+    </p>
+  </div>
+</section>
+
+<section class="section-tight" style="padding-top:0">
+  <div class="shell contact-grid">
+    <aside class="contact-card">
+      <p class="eyebrow">Sharemics</p>
+      <h2 class="h-section" style="font-size:var(--step-3)">Alte Schlosserei am Kanal.</h2>
+      <p>
+        Hofeingang, zweite Tür links. Klingeln musst du nicht — meistens hört man die
+        Scheiben schon von draußen.
+      </p>
+      <dl class="contact-list">
+        <div>
+          <dt>Adresse</dt>
+          <dd>{{ contact.street }}<br>{{ contact.postal }} {{ contact.city }}-{{ contact.district }}</dd>
+        </div>
+        <div>
+          <dt>Offen</dt>
+          <dd>Do + Fr 14–18 Uhr<br>Sa 11–16 Uhr<br>Kurse Sa &amp; So</dd>
+        </div>
+        <div>
+          <dt>Mail</dt>
+          <dd><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></dd>
+        </div>
+        <div>
+          <dt>Telefon</dt>
+          <dd><a href="tel:+493415512080">{{ contact.phoneLabel }}</a></dd>
+        </div>
+        <div>
+          <dt>Anfahrt</dt>
+          <dd>
+            Straßenbahn 14 bis Karl-Heine-/Merseburger Straße, dann fünf Minuten am Kanal
+            entlang. Fahrradbügel im Hof, Parkplätze in der Seitenstraße.
+          </dd>
+        </div>
+      </dl>
+    </aside>
+
+    <div class="contact-form">
+      <p class="eyebrow">Schreib uns</p>
+      <h2 class="h-section" style="font-size:var(--step-3);margin-bottom:1.25rem">Worum geht es?</h2>
+      <form id="contactForm" novalidate>
+        <div class="field-row">
+          <p class="field">
+            <label for="contactName">Name</label>
+            <input id="contactName" name="name" autocomplete="name" required>
+          </p>
+          <p class="field">
+            <label for="contactMail">E-Mail</label>
+            <input id="contactMail" name="email" type="email" autocomplete="email" required>
+          </p>
+        </div>
+        <p class="field">
+          <label for="contactTopic">Thema</label>
+          <select id="contactTopic" name="topic">
+            <option>Allgemeine Frage</option>
+            <option>Kurs oder Gutschein</option>
+            <option>Gruppentermin</option>
+            <option>Bestellung oder Abholung</option>
+            <option>Sonderanfertigung</option>
+          </select>
+        </p>
+        <p class="field">
+          <label for="contactMessage">Nachricht</label>
+          <textarea id="contactMessage" name="message" required></textarea>
+        </p>
+        <p class="field field-check">
+          <input id="contactConsent" name="consent" type="checkbox" required>
+          <label for="contactConsent">
+            Meine Angaben dürfen zur Bearbeitung der Anfrage gespeichert werden. Mehr dazu
+            in der <a href="datenschutz.html">Datenschutzerklärung</a>.
+          </label>
+        </p>
+        <button class="button button-primary" type="submit">Anfrage schicken</button>
+        <p style="margin-top:.9rem;font-size:.8rem;color:var(--ink-faint)">
+          Das Formular öffnet dein E-Mail-Programm mit einer fertigen Nachricht. Nichts wird
+          an Dritte übertragen. Lieber direkt schreiben?
+          <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+        </p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="shell">
+    <div class="ornament-band" data-ornament="anthemion" aria-hidden="true" style="margin-bottom:2.5rem"></div>
+    <div class="grid-3">
+      <article class="value-card">
+        <h2 style="font-size:var(--step-1);margin-bottom:.5rem">Abholung</h2>
+        <p style="font-size:.9rem;color:var(--ink-soft)">
+          Bestellungen kannst du zu den Öffnungszeiten abholen — schreib uns kurz, dann
+          legen wir alles bereit. Kostet nichts und spart den Karton.
+        </p>
+      </article>
+      <article class="value-card">
+        <h2 style="font-size:var(--step-1);margin-bottom:.5rem">Gruppen</h2>
+        <p style="font-size:.9rem;color:var(--ink-soft)">
+          Ab sechs Personen öffnen wir die Werkstatt exklusiv, auch außerhalb der regulären
+          Kurstage. Nenn uns Wunschdatum und Gruppengröße.
+        </p>
+      </article>
+      <article class="value-card">
+        <h2 style="font-size:var(--step-1);margin-bottom:.5rem">Presse &amp; Kooperation</h2>
+        <p style="font-size:.9rem;color:var(--ink-soft)">
+          Für Anfragen von Cafés, Restaurants oder Redaktionen schreib bitte mit Betreff
+          „Kooperation“ — dann landet die Mail direkt bei Marle.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>

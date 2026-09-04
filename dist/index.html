@@ -1,0 +1,604 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Handgemachte Keramik & Töpferkurse in Leipzig — Sharemics</title>
+<meta name="description" content="Sharemics dreht Gebrauchskeramik in kleinen Serien und gibt Wochenendkurse an der Töpferscheibe in Leipzig-Plagwitz. Becher, Schalen, Teller und Vasen aus Steinzeug.">
+<link rel="canonical" href="https://sharemics.de/">
+<meta name="theme-color" content="#faf4ec" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#191411" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sharemics">
+<meta property="og:locale" content="de_DE">
+<meta property="og:title" content="Handgemachte Keramik & Töpferkurse in Leipzig — Sharemics">
+<meta property="og:description" content="Sharemics dreht Gebrauchskeramik in kleinen Serien und gibt Wochenendkurse an der Töpferscheibe in Leipzig-Plagwitz. Becher, Schalen, Teller und Vasen aus Steinzeug.">
+<meta property="og:url" content="https://sharemics.de/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>
+  // Theme vor dem ersten Frame setzen, damit nichts aufblitzt.
+  document.documentElement.classList.add("js");
+  try {
+    var stored = localStorage.getItem("sharemics-theme");
+    var dark = stored ? stored === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+    document.documentElement.dataset.theme = dark ? "dark" : "light";
+  } catch (e) {}
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","@id":"https://sharemics.de/#werkstatt","name":"Sharemics","description":"Sharemics dreht handgemachte Gebrauchskeramik in kleinen Serien und gibt am Wochenende Töpferkurse in Leipzig-Plagwitz.","url":"https://sharemics.de","email":"hallo@sharemics.de","telephone":"+49 341 5512080","address":{"@type":"PostalAddress","streetAddress":"Kanalstraße 7","postalCode":"04229","addressLocality":"Leipzig","addressCountry":"DE"}}</script>
+</head>
+<body class="">
+
+<a class="skip-link" href="#hauptinhalt">Zum Inhalt springen</a>
+<div class="announcement">
+  <p>Kleine Serien · Wochenendkurse in Leipzig-Plagwitz · Abholung ohne Versandkosten</p>
+</div>
+<header class="site-header" id="siteHeader">
+  <div class="shell header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" aria-hidden="true" focusable="false" class="mark">
+<circle cx="24" cy="24" r="22" class="mark-ring" fill="none" stroke-width="2"/>
+<path class="mark-key" d="M15 33V15h18v12H23v-6h6" fill="none" stroke-width="3" stroke-linecap="square"/>
+</svg></span>
+      <span class="brand-text">
+        <strong>Sharemics</strong>
+        <span>Keramik aus der alten Schlosserei</span>
+      </span>
+    </a>
+    <nav class="site-nav" id="siteNav" aria-label="Hauptnavigation"><ul class="nav-list"><li><a href="shop.html">Shop</a></li><li><a href="kurse.html">Kurse</a></li><li><a href="werkstatt.html">Werkstatt</a></li><li><a href="journal.html">Journal</a></li><li><a href="kontakt.html">Kontakt</a></li></ul></nav>
+    <div class="header-actions">
+      <button class="icon-button" id="themeToggle" type="button" aria-pressed="false"
+              aria-label="Zwischen hellem und dunklem Modus wechseln">
+        <span class="theme-icon" aria-hidden="true"></span>
+      </button>
+      <button class="cart-button" id="cartButton" type="button" aria-expanded="false" aria-controls="cartDrawer">
+        <span>Korb</span>
+        <span class="cart-count" id="cartCount" aria-hidden="true">0</span>
+        <span class="visually-hidden" id="cartCountLabel">0 Artikel im Warenkorb</span>
+      </button>
+      <button class="icon-button nav-toggle" id="navToggle" type="button"
+              aria-expanded="false" aria-controls="siteNav" aria-label="Menü öffnen">
+        <span class="burger" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
+</header>
+<main id="hauptinhalt">
+<section class="hero">
+  <div class="shell hero-grid">
+    <div>
+      <p class="eyebrow">Keramik aus Leipzig-Plagwitz</p>
+      <div class="title-block">
+        <div class="ornament-wash" data-ornament="meander" aria-hidden="true"></div>
+        <h1 class="h-hero">Ton, Zeit und gute Hände.</h1>
+      </div>
+      <p class="lede">
+        Handgedrehtes Steinzeug für jeden Tag — ruhig, schwer genug, mit den kleinen
+        Spuren, die zeigen, dass ein Stück durch Hände gegangen ist. Und am Wochenende
+        räumen wir die Tische frei: dann steht die Scheibe für dich bereit.
+      </p>
+      <div class="button-row">
+        <a class="button button-primary" href="shop.html">Keramik entdecken</a>
+        <a class="button button-ghost" href="kurse.html">Wochenendkurs buchen</a>
+      </div>
+      <dl class="hero-facts">
+        <div><dt>1240 °C</dt><dd>dicht gebrannt</dd></div>
+        <div><dt>6</dt><dd>Plätze pro Kurs</dd></div>
+        <div><dt>Sa + So</dt><dd>an der Scheibe</dd></div>
+      </dl>
+    </div>
+
+    <div class="hero-stage" aria-hidden="true">
+      <div class="hero-sun"></div>
+      <div class="hero-shelf">
+        <div class="tone-mist"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" aria-hidden="true" focusable="false" class="vessel">
+<path class="v-body" d="M32 34C31 58 34 82 36 98C36 104 84 104 84 98C86 82 89 58 88 34Z"/>
+<path class="v-glaze" d="M32 34C31.5 46 32.5 56 33.6 66H86.4C87.5 56 88.5 46 88 34Z"/>
+<path class="v-line" d="M88 48C106 47 108 76 85 78" fill="none" stroke-width="6.5" stroke-linecap="round"/>
+<ellipse class="v-rim" cx="60" cy="34" rx="28" ry="7"/>
+</svg></div>
+        <div class="tone-sand"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" aria-hidden="true" focusable="false" class="vessel">
+<path class="v-body" d="M52 26c0 8-2 12-8 18-12 11-18 24-18 36 0 16 15 26 34 26s34-10 34-26c0-12-6-25-18-36-6-6-8-10-8-18Z"/>
+<path class="v-glaze" d="M28.6 66C26.9 71 26 75.5 26 80c0 16 15 26 34 26s34-10 34-26c0-4.5-.9-9-2.6-14Z"/>
+<ellipse class="v-rim" cx="60" cy="26" rx="8.5" ry="3.2"/>
+</svg></div>
+        <div class="tone-ember"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" aria-hidden="true" focusable="false" class="vessel">
+<path class="v-body" d="M16 52C16 82 33 100 60 100S104 82 104 52Z"/>
+<path class="v-glaze" d="M16 52c0 10 2 19 5.5 26h77C102 71 104 62 104 52Z"/>
+<path class="v-line" d="M45 99c0 5 30 5 30 0" fill="none" stroke-width="3.2" stroke-linecap="round"/>
+<ellipse class="v-rim" cx="60" cy="52" rx="44" ry="10"/>
+</svg></div>
+      </div>
+      <div class="hero-line"></div>
+      <div class="ornament-band" data-ornament="anthemion"></div>
+      <p class="hero-note">
+        <strong>Neue Ofenrunde</strong>
+        <span>Am Freitag geöffnet. Was auf dem Tisch steht, kommt in den Shop.</span>
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Westerwälder Steinzeug</span>
+    <span>in kleinen Serien gedreht</span>
+    <span>spülmaschinenfest</span>
+    <span>selbst gemischte Glasuren</span>
+    <span>Abholung am Karl-Heine-Kanal</span>
+    <span>Westerwälder Steinzeug</span>
+    <span>in kleinen Serien gedreht</span>
+    <span>spülmaschinenfest</span>
+    <span>selbst gemischte Glasuren</span>
+    <span>Abholung am Karl-Heine-Kanal</span>
+  </div>
+</div>
+
+<section class="section">
+  <div class="shell">
+    <div class="section-head">
+      <div class="title-block">
+        <p class="eyebrow">Aus der letzten Ofenrunde</p>
+        <h2 class="h-section">Lieblingsstücke</h2>
+      </div>
+      <div>
+        <p>
+          Becher, Schalen, Teller und Vasen — in kleinen Chargen gedreht, getaucht und
+          zweimal gebrannt. Was weg ist, kommt vielleicht ähnlich, aber nie ganz gleich zurück.
+        </p>
+        <p class="button-row" style="margin-top:1rem">
+          <a class="button button-ghost button-sm" href="shop.html">Alle Stücke ansehen</a>
+        </p>
+      </div>
+    </div>
+    <div class="grid-4">
+      
+<article class="product-card reveal" data-category="becher" data-price="32" data-name="Becher Morgen">
+  <div class="product-figure tone-sand">
+    <span class="product-badge">Neu aus dem Ofen</span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" aria-hidden="true" focusable="false" class="vessel">
+<path class="v-body" d="M32 34C31 58 34 82 36 98C36 104 84 104 84 98C86 82 89 58 88 34Z"/>
+<path class="v-glaze" d="M32 34C31.5 46 32.5 56 33.6 66H86.4C87.5 56 88.5 46 88 34Z"/>
+<path class="v-line" d="M88 48C106 47 108 76 85 78" fill="none" stroke-width="6.5" stroke-linecap="round"/>
+<ellipse class="v-rim" cx="60" cy="34" rx="28" ry="7"/>
+</svg>
+  </div>
+  <div class="product-body">
+    <p class="product-meta">Steinzeug · 280 ml · Ø 8,5 cm</p>
+    <h3 class="product-title">Becher Morgen</h3>
+    <p class="product-story">Der Becher, mit dem alles angefangen hat. Innen die matte Hafermilch-Glasur, außen der nackte Ton, damit man sieht, woraus er ist.</p>
+    <div class="product-foot">
+      <p class="product-price">32 €</p>
+      <button class="button button-primary button-sm add-to-cart" type="button"
+              data-id="becher-morgen" data-name="Becher Morgen" data-price="32"
+              data-vessel="becher" data-tone="sand">
+        In den Korb<span class="visually-hidden"> — Becher Morgen</span>
+      </button>
+    </div>
+  </div>
+</article>
+
+<article class="product-card reveal" data-category="schalen" data-price="46" data-name="Schale Ufer">
+  <div class="product-figure tone-sand">
+    <span class="product-badge">Lieblingsstück</span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" aria-hidden="true" focusable="false" class="vessel">
+<path class="v-body" d="M16 52C16 82 33 100 60 100S104 82 104 52Z"/>
+<path class="v-glaze" d="M16 52c0 10 2 19 5.5 26h77C102 71 104 62 104 52Z"/>
+<path class="v-line" d="M45 99c0 5 30 5 30 0" fill="none" stroke-width="3.2" stroke-linecap="round"/>
+<ellipse class="v-rim" cx="60" cy="52" rx="44" ry="10"/>
+</svg>
+  </div>
+  <div class="product-body">
+    <p class="product-meta">Steinzeug · Ø 20 cm · 900 ml</p>
+    <h3 class="product-title">Schale Ufer</h3>
+    <p class="product-story">Groß genug für Porridge, Pasta oder Suppe. Der weit ausgestellte Rand macht sie leichter, als sie aussieht.</p>
+    <div class="product-foot">
+      <p class="product-price">46 €</p>
+      <button class="button button-primary button-sm add-to-cart" type="button"
+              data-id="schale-ufer" data-name="Schale Ufer" data-price="46"
+              data-vessel="schale" data-tone="sand">
+        In den Korb<span class="visually-hidden"> — Schale Ufer</span>
+      </button>
+    </div>
+  </div>
+</article>
+
+<article class="product-card reveal" data-category="vasen" data-price="58" data-name="Vase Welle">
+  <div class="product-figure tone-mist">
+    <span class="product-badge">Unikat</span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" aria-hidden="true" focusable="false" class="vessel">
+<path class="v-body" d="M52 26c0 8-2 12-8 18-12 11-18 24-18 36 0 16 15 26 34 26s34-10 34-26c0-12-6-25-18-36-6-6-8-10-8-18Z"/>
+<path class="v-glaze" d="M28.6 66C26.9 71 26 75.5 26 80c0 16 15 26 34 26s34-10 34-26c0-4.5-.9-9-2.6-14Z"/>
+<ellipse class="v-rim" cx="60" cy="26" rx="8.5" ry="3.2"/>
+</svg>
+  </div>
+  <div class="product-body">
+    <p class="product-meta">Steinzeug · H 22 cm · Einzelstück</p>
+    <h3 class="product-title">Vase Welle</h3>
+    <p class="product-story">Weiter Bauch, enger Hals: hält auch drei Zweige aufrecht. Die Welle unter der Schulter entsteht beim Hochziehen und bleibt sichtbar.</p>
+    <div class="product-foot">
+      <p class="product-price">58 €<span class="product-stock">nur noch 1 Stück</span></p>
+      <button class="button button-primary button-sm add-to-cart" type="button"
+              data-id="vase-welle" data-name="Vase Welle" data-price="58"
+              data-vessel="vase" data-tone="mist">
+        In den Korb<span class="visually-hidden"> — Vase Welle</span>
+      </button>
+    </div>
+  </div>
+</article>
+
+<article class="product-card reveal" data-category="becher" data-price="24" data-name="Espresso Kiesel">
+  <div class="product-figure tone-ember">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" aria-hidden="true" focusable="false" class="vessel">
+<path class="v-body" d="M40 50c-1 14 2 30 4 42 0 5 32 5 32 0 2-12 5-28 4-42Z"/>
+<path class="v-glaze" d="M40 50c-.4 6-.3 12 .1 18h39.8c.4-6 .5-12 .1-18Z"/>
+<path class="v-line" d="M80 60c13-1 14 20-2 21" fill="none" stroke-width="5" stroke-linecap="round"/>
+<ellipse class="v-rim" cx="60" cy="50" rx="20" ry="5.4"/>
+</svg>
+  </div>
+  <div class="product-body">
+    <p class="product-meta">Steinzeug · 90 ml · Ø 6 cm</p>
+    <h3 class="product-title">Espresso Kiesel</h3>
+    <p class="product-story">Klein, schwer, standfest. Die Wandung läuft nach oben dünn aus, damit der Rand nicht klobig auf der Lippe liegt.</p>
+    <div class="product-foot">
+      <p class="product-price">24 €</p>
+      <button class="button button-primary button-sm add-to-cart" type="button"
+              data-id="espresso-kiesel" data-name="Espresso Kiesel" data-price="24"
+              data-vessel="espresso" data-tone="ember">
+        In den Korb<span class="visually-hidden"> — Espresso Kiesel</span>
+      </button>
+    </div>
+  </div>
+</article>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="shell split">
+    <div class="split-panel">
+      <p class="eyebrow">Material &amp; Haltung</p>
+      <h2 class="h-section">Ton darf nach Ton aussehen.</h2>
+      <p>
+        Ein Fingerabdruck an der Wandung, eine Glasur, die am Rand dünner läuft, eine
+        Drehrille, die man mit der Kuppe fühlt: Wir versuchen nicht, das wegzuputzen.
+        Es ist der Unterschied zwischen einem Stück und einem Produkt.
+      </p>
+      <p>
+        Fünf Glasuren mischen wir selbst — Hafermilch, Ofenrohr, Sandbraun, Kanalgrün
+        und Morgenrot. Mehr braucht es nicht, und mit weniger lernt man sie richtig kennen.
+      </p>
+      <div class="button-row">
+        <a class="button button-ghost" href="werkstatt.html">In die Werkstatt schauen</a>
+      </div>
+      <div class="ornament-band" data-ornament="wave-scroll" aria-hidden="true"></div>
+    </div>
+    <div class="split-figure tone-clay" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" aria-hidden="true" focusable="false" class="vessel">
+<path class="v-body" d="M54 21v19c0 6-4 10-10 16-11 10-16 20-16 30 0 13 14 22 32 22s32-9 32-22c0-10-5-20-16-30-6-6-10-10-10-16V21Z"/>
+<path class="v-glaze" d="M31.4 71C29.2 75.9 28 80.9 28 86c0 13 14 22 32 22s32-9 32-22c0-5.1-1.2-10.1-3.4-15Z"/>
+<ellipse class="v-rim" cx="60" cy="21" rx="6.5" ry="2.6"/>
+</svg></div>
+  </div>
+</section>
+
+<div class="shell"><div class="ornament-band" data-ornament="meander" aria-hidden="true"></div></div>
+
+<section class="section">
+  <div class="shell">
+    <div class="section-head">
+      <div class="title-block">
+        <div class="ornament-wash" data-ornament="vitruvian" aria-hidden="true"></div>
+        <p class="eyebrow">Samstag &amp; Sonntag</p>
+        <h2 class="h-section">Hände in den Ton. Kopf aus.</h2>
+      </div>
+      <div>
+        <p>
+          Vier Formate, sechs Plätze, kein Vorwissen nötig. Ton, Werkzeug, Schürze,
+          Glasur und beide Brände sind immer dabei.
+        </p>
+        <p class="button-row" style="margin-top:1rem">
+          <a class="button button-primary button-sm" href="kurse.html">Freies Wochenende finden</a>
+        </p>
+      </div>
+    </div>
+    <div class="grid-4">
+      
+<article class="course-card reveal">
+  <h3>Drehen für Einsteiger:innen</h3>
+  <p class="course-facts"><span>Samstag, 11–15 Uhr</span><span>ohne Vorkenntnisse</span><span>max. 6 Plätze</span></p>
+  <p>Vier Stunden an der Scheibe. Zentrieren, aufsteigen, öffnen, hochziehen — am Ende nimmst du zwei bis drei eigene Stücke mit in den Trockenschrank.</p>
+  <p class="course-price">95 € <span>pro Person</span></p>
+</article>
+
+<article class="course-card reveal">
+  <h3>Wochenende an der Scheibe</h3>
+  <p class="course-facts"><span>Samstag &amp; Sonntag, je 3 Stunden</span><span>ohne Vorkenntnisse</span><span>max. 6 Plätze</span></p>
+  <p>Samstag drehen, Sonntag abdrehen und glasieren. Das komplette Handwerk in zwei Nachmittagen — und du siehst, was aus deinen Stücken über Nacht wird.</p>
+  <p class="course-price">145 € <span>pro Person</span></p>
+</article>
+
+<article class="course-card reveal">
+  <h3>Drehen &amp; Glasieren</h3>
+  <p class="course-facts"><span>Samstag, 12–17 Uhr</span><span>offenes Level</span><span>max. 5 Plätze</span></p>
+  <p>Für alle, die schon einmal an der Scheibe saßen. Wir arbeiten an Wandstärke und Form und mischen am Nachmittag eigene Glasurproben.</p>
+  <p class="course-price">118 € <span>pro Person</span></p>
+</article>
+
+<article class="course-card reveal">
+  <h3>Winterwerkstatt</h3>
+  <p class="course-facts"><span>Samstag, 12–16 Uhr</span><span>offenes Level</span><span>max. 6 Plätze</span></p>
+  <p>Kurzer Tag, langer Ofen, Tee auf der Werkbank. Aufbaukeramik statt Scheibe: Schalen, Schälchen und Kerzenhalter aus der Platte.</p>
+  <p class="course-price">105 € <span>pro Person</span></p>
+</article>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="shell">
+    <div class="section-head">
+      <div class="title-block">
+        <p class="eyebrow">Vom Klumpen zum Lieblingsstück</p>
+        <h2 class="h-section">Vier ruhige Schritte.</h2>
+      </div>
+      <p>
+        Zwischen dem ersten Zentrieren und dem fertigen Becher liegen rund fünf Wochen —
+        die meiste Zeit davon wartet der Ton einfach.
+      </p>
+    </div>
+    <ol class="process-list">
+      
+<li class="process-step reveal">
+  <p class="process-num">01</p>
+  <h3>Drehen</h3>
+  <p>Ein Klumpen Westerwälder Steinzeugton zentriert sich unter feuchten Händen. Die Form entsteht in einem Zug — was danach kommt, korrigiert nichts mehr.</p>
+</li>
+
+<li class="process-step reveal">
+  <p class="process-num">02</p>
+  <h3>Abdrehen</h3>
+  <p>Lederhart wird der Fuß von unten ausgehöhlt, die Kante gebrochen, der Henkel angarniert. Hier entscheidet sich, wie ein Stück in der Hand liegt.</p>
+</li>
+
+<li class="process-step reveal">
+  <p class="process-num">03</p>
+  <h3>Glasieren</h3>
+  <p>Nach dem Schrühbrand tauchen wir. Unsere fünf Glasuren mischen wir selbst aus wenigen Rohstoffen — Hafermilch, Ofenrohr, Sandbraun, Kanalgrün, Morgenrot.</p>
+</li>
+
+<li class="process-step reveal">
+  <p class="process-num">04</p>
+  <h3>Brennen</h3>
+  <p>1240 °C, achtzehn Stunden hoch, anderthalb Tage runter. Der Ton sintert dicht, die Glasur schmilzt ein. Erst beim Öffnen wissen wir, was es geworden ist.</p>
+</li>
+    </ol>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell">
+    <div class="section-head">
+      <div class="title-block">
+        <p class="eyebrow">Stimmen aus der Werkstatt</p>
+        <h2 class="h-section">Schön, wenn es bleibt.</h2>
+      </div>
+    </div>
+    <div class="grid-3">
+      
+<figure class="testimonial reveal">
+  <div class="ornament-rule" data-ornament="wave-scroll" aria-hidden="true"></div>
+  <blockquote>Der Becher fühlt sich an, als wäre er schon immer in meiner Küche gewesen. Nach zwei Jahren täglichem Gebrauch sieht er aus wie am ersten Tag.</blockquote>
+  <figcaption>Lea, Leipzig</figcaption>
+</figure>
+
+<figure class="testimonial reveal">
+  <div class="ornament-rule" data-ornament="wave-scroll" aria-hidden="true"></div>
+  <blockquote>Ruhig, unaufgeregt, genau die richtige Mischung aus Anleitung und Selbermachen. Ich bin mit drei Schalen und einem freien Kopf nach Hause gegangen.</blockquote>
+  <figcaption>Nina, Halle</figcaption>
+</figure>
+
+<figure class="testimonial reveal">
+  <div class="ornament-rule" data-ornament="wave-scroll" aria-hidden="true"></div>
+  <blockquote>Keine zwei Schalen sind gleich — nebeneinander im Regal ergeben sie dadurch erst richtig ein Bild.</blockquote>
+  <figcaption>Paul, Berlin</figcaption>
+</figure>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="shell">
+    <div class="section-head">
+      <div class="title-block">
+        <p class="eyebrow">Journal</p>
+        <h2 class="h-section">Notizen aus der Schlosserei.</h2>
+      </div>
+      <div>
+        <p>Was wir gerade ausprobieren, was schiefgeht und was nach dem Öffnen des Ofens übrig bleibt.</p>
+        <p class="button-row" style="margin-top:1rem">
+          <a class="button button-ghost button-sm" href="journal.html">Alle Beiträge</a>
+        </p>
+      </div>
+    </div>
+    <div class="grid-3">
+      
+<article class="article-card reveal">
+  <a class="article-link" href="journal-glasuren.html">
+    <div class="article-figure" data-ornament="wave-scroll" aria-hidden="true"></div>
+    <div class="article-body">
+      <p class="article-meta"><span class="tag">Material</span><time datetime="2026-08-21">21. August 2026</time> · 6 Minuten</p>
+      <h3>Warum jede Glasur ein bisschen anders fällt</h3>
+      <p>Zwei Becher, dieselbe Glasur, derselbe Brand — und trotzdem sieht der eine aus wie Hafermilch und der andere wie nasser Sand. Über Schichtdicke, Ofenposition und die Grenzen der Kontrolle.</p>
+      <p class="article-more">Weiterlesen</p>
+    </div>
+  </a>
+</article>
+
+<article class="article-card reveal">
+  <a class="article-link" href="journal-schale.html">
+    <div class="article-figure" data-ornament="anthemion" aria-hidden="true"></div>
+    <div class="article-body">
+      <p class="article-meta"><span class="tag">Werkstatt</span><time datetime="2026-07-09">9. Juli 2026</time> · 5 Minuten</p>
+      <h3>Die Schale, die jeden Morgen auf dem Tisch steht</h3>
+      <p>Vom ersten Entwurf auf Papier bis zur vierzehnten Version an der Scheibe: wie aus einer Idee ein Stück wird, das wir in Serie drehen — und was auf dem Weg dorthin alles im Recyclingeimer landet.</p>
+      <p class="article-more">Weiterlesen</p>
+    </div>
+  </a>
+</article>
+
+<article class="article-card reveal">
+  <a class="article-link" href="journal-samstag.html">
+    <div class="article-figure" data-ornament="vitruvian" aria-hidden="true"></div>
+    <div class="article-body">
+      <p class="article-meta"><span class="tag">Kurse</span><time datetime="2026-06-14">14. Juni 2026</time> · 4 Minuten</p>
+      <h3>Ein Samstag an der Drehscheibe</h3>
+      <p>Sechs Leute, sechs Scheiben, vier Stunden. Ein Protokoll vom ersten zentrierten Klumpen bis zu dem Moment, in dem jemand seinen ersten Becher abschneidet.</p>
+      <p class="article-more">Weiterlesen</p>
+    </div>
+  </a>
+</article>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="shell">
+    <div class="newsletter">
+      <div>
+        <p class="eyebrow">Post aus der Werkstatt</p>
+        <h2 class="h-section">Alle sechs Wochen, ganz in Ruhe.</h2>
+        <p>Neue Stücke zuerst, freie Kursplätze und ab und zu ein Blick in den offenen Ofen.</p>
+      </div>
+      <div>
+        <form class="newsletter-form">
+          <label class="visually-hidden" for="newsletterHome">E-Mail-Adresse</label>
+          <input id="newsletterHome" type="email" required placeholder="deine@adresse.de" autocomplete="email">
+          <button class="button button-primary" type="submit">Eintragen</button>
+        </form>
+        <small>Abmeldung jederzeit mit einem Klick. Wir geben deine Adresse nicht weiter.</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="shell">
+    <div class="cta-band">
+      <h2>Komm vorbei, wenn die Scheiben laufen.</h2>
+      <p>
+        Donnerstag und Freitag nachmittags, samstags den ganzen Vormittag: Die Werkstatt
+        steht offen, der Kaffee auch. Klingeln musst du nicht.
+      </p>
+      <div class="button-row">
+        <a class="button button-ghost" href="kontakt.html">Anfahrt &amp; Kontakt</a>
+        <a class="button button-ghost" href="kurse.html">Kurstermine ansehen</a>
+      </div>
+      <div class="ornament-band" data-ornament="meander" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="ornament-band" data-ornament="meander" aria-hidden="true"></div>
+  <div class="shell footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" aria-hidden="true" focusable="false" class="mark">
+<circle cx="24" cy="24" r="22" class="mark-ring" fill="none" stroke-width="2"/>
+<path class="mark-key" d="M15 33V15h18v12H23v-6h6" fill="none" stroke-width="3" stroke-linecap="square"/>
+</svg></span>
+      <p class="footer-claim">Handgedrehte Gebrauchskeramik aus der alten Schlosserei am Karl-Heine-Kanal. Kleine Serien, ruhige Glasuren und Wochenenden mit Ton an den Händen.</p>
+      <p class="footer-address">
+        Kanalstraße 7, 04229 Leipzig<br>
+        <a href="mailto:hallo@sharemics.de">hallo@sharemics.de</a><br>
+        <a href="tel:+493415512080">0341 55 12 08</a>
+      </p>
+    </div>
+    <nav class="footer-col" aria-label="Entdecken">
+      <h2>Entdecken</h2>
+      <ul><li><a href="shop.html">Shop</a></li><li><a href="kurse.html">Wochenendkurse</a></li><li><a href="werkstatt.html">Werkstatt</a></li><li><a href="journal.html">Journal</a></li></ul>
+    </nav>
+    <nav class="footer-col" aria-label="Service">
+      <h2>Service</h2>
+      <ul><li><a href="pflege.html">Pflege & Gebrauch</a></li><li><a href="versand.html">Versand & Abholung</a></li><li><a href="kontakt.html">Kontakt</a></li><li><a href="widerruf.html">Widerrufsrecht</a></li></ul>
+    </nav>
+    <div class="footer-col">
+      <h2>Offen</h2>
+      <dl class="footer-hours"><div><dt>Donnerstag & Freitag</dt><dd>14–18 Uhr</dd></div><div><dt>Samstag</dt><dd>11–16 Uhr</dd></div><div><dt>Kurstage</dt><dd>Samstag & Sonntag</dd></div></dl>
+    </div>
+  </div>
+  <div class="shell footer-bottom">
+    <p>© 2026 Sharemics · Marle Ostermann &amp; Jonas Reh GbR</p>
+    <ul class="footer-legal"><li><a href="impressum.html">Impressum</a></li><li><a href="datenschutz.html">Datenschutz</a></li><li><a href="agb.html">AGB</a></li></ul>
+  </div>
+</footer>
+
+<div class="scrim" id="scrim" hidden></div>
+
+<aside class="cart-drawer" id="cartDrawer" aria-labelledby="cartHeading" aria-hidden="true" hidden>
+  <div class="cart-head">
+    <h2 id="cartHeading">Dein Korb</h2>
+    <button class="icon-button" id="cartClose" type="button" aria-label="Warenkorb schließen">
+      <span class="close-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+  <div class="cart-body" id="cartBody"></div>
+  <div class="cart-foot">
+    <p class="cart-total"><span>Zwischensumme</span><strong id="cartTotal">0 €</strong></p>
+    <p class="cart-hint">Versandkosten werden im nächsten Schritt berechnet. Abholung in der Werkstatt ist kostenlos.</p>
+    <button class="button button-primary button-block" id="checkout" type="button">Zur Kasse</button>
+  </div>
+</aside>
+
+<div class="dialog-scrim" id="bookingDialog" role="dialog" aria-modal="true" aria-labelledby="bookingHeading" hidden>
+  <div class="dialog">
+    <div class="dialog-head">
+      <div>
+        <p class="eyebrow">Kursanfrage</p>
+        <h2 id="bookingHeading">Dein Platz an der Scheibe</h2>
+      </div>
+      <button class="icon-button" id="bookingClose" type="button" aria-label="Dialog schließen">
+        <span class="close-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+    <p class="dialog-summary" id="bookingSummary"></p>
+    <form id="bookingForm" novalidate>
+      <div class="field-row">
+        <p class="field">
+          <label for="bookingName">Name</label>
+          <input id="bookingName" name="name" autocomplete="name" required>
+        </p>
+        <p class="field">
+          <label for="bookingMail">E-Mail</label>
+          <input id="bookingMail" name="email" type="email" autocomplete="email" required>
+        </p>
+      </div>
+      <div class="field-row">
+        <p class="field">
+          <label for="bookingPeople">Personen</label>
+          <select id="bookingPeople" name="people">
+            <option>1 Person</option><option>2 Personen</option>
+            <option>3 Personen</option><option>4 Personen</option>
+          </select>
+        </p>
+        <p class="field">
+          <label for="bookingNote">Hinweis <span>(optional)</span></label>
+          <input id="bookingNote" name="note" placeholder="Gutschein, Geburtstag, Fragen">
+        </p>
+      </div>
+      <p class="field field-check">
+        <input id="bookingConsent" name="consent" type="checkbox" required>
+        <label for="bookingConsent">Meine Angaben dürfen zur Bearbeitung der Kursanfrage gespeichert werden.</label>
+      </p>
+      <button class="button button-primary button-block" type="submit">Anfrage senden</button>
+    </form>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="assets/js/app.js" defer></script>
+</body>
+</html>

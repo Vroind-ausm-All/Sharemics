@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" aria-hidden="true" focusable="false" class="vessel">
+<path class="v-body" d="M52 26c0 8-2 12-8 18-12 11-18 24-18 36 0 16 15 26 34 26s34-10 34-26c0-12-6-25-18-36-6-6-8-10-8-18Z"/>
+<path class="v-glaze" d="M28.6 66C26.9 71 26 75.5 26 80c0 16 15 26 34 26s34-10 34-26c0-4.5-.9-9-2.6-14Z"/>
+<ellipse class="v-rim" cx="60" cy="26" rx="8.5" ry="3.2"/>
+</svg>

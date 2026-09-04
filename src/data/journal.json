@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "journal-glasuren",
+    "title": "Warum jede Glasur ein bisschen anders fällt",
+    "date": "2026-08-21",
+    "dateLabel": "21. August 2026",
+    "reading": "6 Minuten",
+    "category": "Material",
+    "ornament": "wave-scroll",
+    "excerpt": "Zwei Becher, dieselbe Glasur, derselbe Brand — und trotzdem sieht der eine aus wie Hafermilch und der andere wie nasser Sand. Über Schichtdicke, Ofenposition und die Grenzen der Kontrolle."
+  },
+  {
+    "slug": "journal-schale",
+    "title": "Die Schale, die jeden Morgen auf dem Tisch steht",
+    "date": "2026-07-09",
+    "dateLabel": "9. Juli 2026",
+    "reading": "5 Minuten",
+    "category": "Werkstatt",
+    "ornament": "anthemion",
+    "excerpt": "Vom ersten Entwurf auf Papier bis zur vierzehnten Version an der Scheibe: wie aus einer Idee ein Stück wird, das wir in Serie drehen — und was auf dem Weg dorthin alles im Recyclingeimer landet."
+  },
+  {
+    "slug": "journal-samstag",
+    "title": "Ein Samstag an der Drehscheibe",
+    "date": "2026-06-14",
+    "dateLabel": "14. Juni 2026",
+    "reading": "4 Minuten",
+    "category": "Kurse",
+    "ornament": "vitruvian",
+    "excerpt": "Sechs Leute, sechs Scheiben, vier Stunden. Ein Protokoll vom ersten zentrierten Klumpen bis zu dem Moment, in dem jemand seinen ersten Becher abschneidet."
+  }
+]

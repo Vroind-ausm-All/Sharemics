@@ -1,0 +1,103 @@
+{
+  "name": "Sharemics",
+  "tagline": "Keramik aus der alten Schlosserei",
+  "domain": "https://sharemics.de",
+  "locale": "de-DE",
+  "defaultDescription": "Sharemics dreht handgemachte Gebrauchskeramik in kleinen Serien und gibt am Wochenende Töpferkurse in Leipzig-Plagwitz.",
+  "contact": {
+    "street": "Kanalstraße 7",
+    "postal": "04229",
+    "city": "Leipzig",
+    "district": "Plagwitz",
+    "email": "hallo@sharemics.de",
+    "phone": "+49 341 5512080",
+    "phoneLabel": "0341 55 12 08"
+  },
+  "opening": [
+    ["Donnerstag & Freitag", "14–18 Uhr"],
+    ["Samstag", "11–16 Uhr"],
+    ["Kurstage", "Samstag & Sonntag"]
+  ],
+  "nav": [
+    ["shop", "Shop", "shop.html"],
+    ["kurse", "Kurse", "kurse.html"],
+    ["werkstatt", "Werkstatt", "werkstatt.html"],
+    ["journal", "Journal", "journal.html"],
+    ["kontakt", "Kontakt", "kontakt.html"]
+  ],
+  "footer": {
+    "entdecken": [
+      ["Shop", "shop.html"],
+      ["Wochenendkurse", "kurse.html"],
+      ["Werkstatt", "werkstatt.html"],
+      ["Journal", "journal.html"]
+    ],
+    "service": [
+      ["Pflege & Gebrauch", "pflege.html"],
+      ["Versand & Abholung", "versand.html"],
+      ["Kontakt", "kontakt.html"],
+      ["Widerrufsrecht", "widerruf.html"]
+    ],
+    "rechtliches": [
+      ["Impressum", "impressum.html"],
+      ["Datenschutz", "datenschutz.html"],
+      ["AGB", "agb.html"]
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "Der Becher fühlt sich an, als wäre er schon immer in meiner Küche gewesen. Nach zwei Jahren täglichem Gebrauch sieht er aus wie am ersten Tag.",
+      "author": "Lea",
+      "city": "Leipzig"
+    },
+    {
+      "quote": "Ruhig, unaufgeregt, genau die richtige Mischung aus Anleitung und Selbermachen. Ich bin mit drei Schalen und einem freien Kopf nach Hause gegangen.",
+      "author": "Nina",
+      "city": "Halle"
+    },
+    {
+      "quote": "Keine zwei Schalen sind gleich — nebeneinander im Regal ergeben sie dadurch erst richtig ein Bild.",
+      "author": "Paul",
+      "city": "Berlin"
+    }
+  ],
+  "process": [
+    {
+      "step": "01",
+      "title": "Drehen",
+      "text": "Ein Klumpen Westerwälder Steinzeugton zentriert sich unter feuchten Händen. Die Form entsteht in einem Zug — was danach kommt, korrigiert nichts mehr."
+    },
+    {
+      "step": "02",
+      "title": "Abdrehen",
+      "text": "Lederhart wird der Fuß von unten ausgehöhlt, die Kante gebrochen, der Henkel angarniert. Hier entscheidet sich, wie ein Stück in der Hand liegt."
+    },
+    {
+      "step": "03",
+      "title": "Glasieren",
+      "text": "Nach dem Schrühbrand tauchen wir. Unsere fünf Glasuren mischen wir selbst aus wenigen Rohstoffen — Hafermilch, Ofenrohr, Sandbraun, Kanalgrün, Morgenrot."
+    },
+    {
+      "step": "04",
+      "title": "Brennen",
+      "text": "1240 °C, achtzehn Stunden hoch, anderthalb Tage runter. Der Ton sintert dicht, die Glasur schmilzt ein. Erst beim Öffnen wissen wir, was es geworden ist."
+    }
+  ],
+  "values": [
+    {
+      "num": "01",
+      "title": "Kleine Serien",
+      "text": "Wir drehen einen Nachmittag Becher, einen Nachmittag Teller. Nichts liegt auf Vorrat, nichts wird nachproduziert, nur weil es sich gut verkauft hat."
+    },
+    {
+      "num": "02",
+      "title": "Für den Alltag gemacht",
+      "text": "Bei 1240 °C dicht gesintertes Steinzeug: spülmaschinen- und mikrowellenfest, unempfindlich gegen heißen Kaffee und kaltes Wasser."
+    },
+    {
+      "num": "03",
+      "title": "Eine geteilte Werkstatt",
+      "text": "Sharemics heißt Sharemics, weil die Scheiben am Wochenende nicht uns gehören. Kurse und offene Termine sind kein Nebengeschäft, sondern der Grund für den Raum."
+    }
+  ]
+}

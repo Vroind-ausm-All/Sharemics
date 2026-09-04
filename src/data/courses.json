@@ -1,0 +1,59 @@
+{
+  "formats": [
+    {
+      "id": "einstieg",
+      "title": "Drehen für Einsteiger:innen",
+      "duration": "Samstag, 11–15 Uhr",
+      "level": "ohne Vorkenntnisse",
+      "price": 95,
+      "seats": 6,
+      "text": "Vier Stunden an der Scheibe. Zentrieren, aufsteigen, öffnen, hochziehen — am Ende nimmst du zwei bis drei eigene Stücke mit in den Trockenschrank."
+    },
+    {
+      "id": "wochenende",
+      "title": "Wochenende an der Scheibe",
+      "duration": "Samstag & Sonntag, je 3 Stunden",
+      "level": "ohne Vorkenntnisse",
+      "price": 145,
+      "seats": 6,
+      "text": "Samstag drehen, Sonntag abdrehen und glasieren. Das komplette Handwerk in zwei Nachmittagen — und du siehst, was aus deinen Stücken über Nacht wird."
+    },
+    {
+      "id": "glasur",
+      "title": "Drehen & Glasieren",
+      "duration": "Samstag, 12–17 Uhr",
+      "level": "offenes Level",
+      "price": 118,
+      "seats": 5,
+      "text": "Für alle, die schon einmal an der Scheibe saßen. Wir arbeiten an Wandstärke und Form und mischen am Nachmittag eigene Glasurproben."
+    },
+    {
+      "id": "winter",
+      "title": "Winterwerkstatt",
+      "duration": "Samstag, 12–16 Uhr",
+      "level": "offenes Level",
+      "price": 105,
+      "seats": 6,
+      "text": "Kurzer Tag, langer Ofen, Tee auf der Werkbank. Aufbaukeramik statt Scheibe: Schalen, Schälchen und Kerzenhalter aus der Platte."
+    }
+  ],
+  "dates": [
+    { "date": "2026-09-12", "format": "einstieg", "seats": 4 },
+    { "date": "2026-09-19", "format": "wochenende", "seats": 2 },
+    { "date": "2026-09-26", "format": "glasur", "seats": 5 },
+    { "date": "2026-10-03", "format": "einstieg", "seats": 6 },
+    { "date": "2026-10-17", "format": "wochenende", "seats": 3 },
+    { "date": "2026-10-24", "format": "glasur", "seats": 4 },
+    { "date": "2026-11-07", "format": "einstieg", "seats": 5 },
+    { "date": "2026-11-21", "format": "winter", "seats": 6 },
+    { "date": "2026-11-28", "format": "wochenende", "seats": 4 },
+    { "date": "2026-12-05", "format": "winter", "seats": 6 },
+    { "date": "2026-12-12", "format": "einstieg", "seats": 2 }
+  ],
+  "includes": [
+    "10 kg Steinzeugton, Werkzeug und Schürze",
+    "Schrüh- und Glasurbrand deiner Stücke",
+    "Kaffee, Tee und etwas zu knabbern",
+    "vier bis sechs Wochen später: Abholung oder Versand"
+  ]
+}
